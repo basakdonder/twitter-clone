@@ -1,0 +1,83 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000;
+  align-items: center;
+  height: 100vh;
+  width: 15%;
+  font-size: 23px;
+  padding: 15px 0;
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+
+.Navbar table tr {
+  text-align: center;
+}
+
+.Navbar table tr td i {
+  padding: 10px;
+  transition: 0.2s ease;
+  border-radius: 20px;
+}
+
+.Navbar table tr td i:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.Navbar table tr td .tweet-btn {
+  border-radius: 30px;
+  padding: 5px;
+  background-color: #1a8cd8;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.Navbar table tr td:nth-child(2) {
+  display: none;
+}
+
+.Navbar .account-wrap {
+  color: #fff;
+}
+
+.Navbar .account-wrap .account-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: darkmagenta;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .Navbar {
+    font-size: 16px;
+  }
+  .Navbar table tr {
+    text-align: left;
+  }
+  .Navbar table tr:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+  }
+  .Navbar table tr td {
+    margin: 5px;
+    width: auto;
+  }
+  .Navbar table tr td i:hover {
+    background: none;
+  }
+  .Navbar table tr td .tweet-btn {
+    width: 100%;
+  }
+  .Navbar table tr td:nth-child(2) {
+    display: inline-block;
+  }
+  .Navbar table tr td:hover {
+    background: none;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

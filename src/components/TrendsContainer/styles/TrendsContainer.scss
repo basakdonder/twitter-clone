@@ -1,0 +1,70 @@
+.TrendsContainer {
+  display: none;
+  color: #fff;
+  //   #1D1F23
+  width: 400px;
+  height: 100vh;
+  padding: 20px;
+
+  @media screen and(min-width:1024px) {
+    display: block;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #1d1f23;
+    border: none;
+  }
+
+  .trends-wrap {
+    margin: 20px 0;
+    background-color: #1d1f23;
+    border-radius: 20px;
+    overflow: hidden;
+
+    h3 {
+      padding: 10px;
+    }
+
+    .trend-header {
+      width: 100%;
+      color: gray;
+      margin: 10px 0;
+      position: relative;
+      padding: 10px;
+      transition: 0.2s ease;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(128, 128, 128, 0.2);
+      }
+
+      i {
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.2s ease;
+
+        &:hover {
+          color: #1a8cd8;
+          background-color: rgba(26, 140, 216, 0.125);
+        }
+      }
+
+      span {
+        display: block;
+      }
+
+      span.subj {
+        color: #fff;
+      }
+    }
+  }
+}

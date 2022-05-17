@@ -1,0 +1,19 @@
+.Main {
+  color: #fff;
+  width: 60%;
+  height: 100vh;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+
+  .main-header {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 600px;
+  }
+}

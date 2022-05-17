@@ -1,0 +1,54 @@
+.TweetInput {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.TweetInput .acc-wrap {
+  padding: 10px;
+}
+
+.TweetInput .acc-wrap .acc-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: darkviolet;
+}
+
+.TweetInput .input-wrap {
+  width: 100%;
+}
+
+.TweetInput .input-wrap input {
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: none;
+  margin: 20px 0;
+}
+
+.TweetInput .input-wrap input:focus {
+  color: #fff;
+}
+
+.TweetInput .input-wrap .icons-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid gray;
+  padding: 10px 0;
+}
+
+.TweetInput .input-wrap .icons-wrap .icons i {
+  padding: 0 10px;
+  color: #1a8cd8;
+}
+
+.TweetInput .input-wrap .icons-wrap .tweet-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #1a8cd8;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=TweetInput.css.map */

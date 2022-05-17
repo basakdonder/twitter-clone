@@ -1,0 +1,55 @@
+.TweetInput {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+
+  .acc-wrap {
+    padding: 10px;
+
+    .acc-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: darkviolet;
+    }
+  }
+
+  .input-wrap {
+    width: 100%;
+
+    input {
+      font-size: 20px;
+      background: none;
+      outline: none;
+      border: none;
+      margin: 20px 0;
+
+      &:focus {
+        color: #fff;
+      }
+    }
+
+    .icons-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid gray;
+      padding: 10px 0;
+
+      .icons {
+        i {
+          padding: 0 10px;
+          color: #1a8cd8;
+        }
+      }
+
+      .tweet-btn {
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-color: #1a8cd8;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+}
